@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".imagefrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="760dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/homebutton"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/homebutton"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/colossyan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/colossyan" />
+
+            <ImageButton
+                android:id="@+id/deepbrain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/deepbrain" />
+
+            <ImageButton
+                android:id="@+id/elai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/elai" />
+
+            <ImageButton
+                android:id="@+id/heygen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/heygen" />
+
+            <ImageButton
+                android:id="@+id/invideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/invideo" />
+
+            <ImageButton
+                android:id="@+id/pictory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pictory" />
+
+            <ImageButton
+                android:id="@+id/synthesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/synthesia" />
+
+            <ImageButton
+                android:id="@+id/synthesys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/synthesys" />
+
+            <ImageButton
+                android:id="@+id/veedio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/veedio" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/sports"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sports" />
+    </FrameLayout>
+
+</FrameLayout>

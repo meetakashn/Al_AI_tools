@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    android:background="@drawable/bg"
+    android:id="@+id/container"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="760dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+      >
+        <ImageButton
+            android:id="@+id/imageai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/imagebg"
+            />
+        <ImageButton
+            android:id="@+id/videoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/videobg"/>
+        <ImageButton
+            android:id="@+id/audioai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/audiobg"/>
+        <ImageButton
+            android:id="@+id/writingai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/writingbg"
+            />
+
+        <ImageButton
+            android:id="@+id/productiveai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/productivebg" />
+        <ImageButton
+            android:id="@+id/educationai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background ="@drawable/educationbg" />
+        <ImageButton
+            android:id="@+id/top10ai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topbg" />
+
+        <ImageButton
+            android:id="@+id/funtoolai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/funtoolbg" />
+
+    </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/btc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btc" />
+    </FrameLayout>
+</FrameLayout>

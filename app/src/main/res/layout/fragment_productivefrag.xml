@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".imagefrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/homebutton"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/homebutton"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/smartcopyp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/smartcopy" />
+            <ImageButton
+                android:id="@+id/audiodp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/audiod" />
+
+            <ImageButton
+                android:id="@+id/rytrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rytr" />
+
+            <ImageButton
+                android:id="@+id/cariyonp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cariyon" />
+
+            <ImageButton
+                android:id="@+id/pictoryp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pictory" />
+
+            <ImageButton
+                android:id="@+id/synthesiap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/synthesia" />
+
+            <ImageButton
+                android:id="@+id/scalenut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scalenut" />
+
+            <ImageButton
+                android:id="@+id/krisp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/krisp" />
+
+            <ImageButton
+                android:id="@+id/elai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/elai" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

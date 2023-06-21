@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".imagefrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="760dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/homebutton"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/homebutton"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/semantris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/semantris" />
+
+            <ImageButton
+                android:id="@+id/quickdraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/quickdraw" />
+
+            <ImageButton
+                android:id="@+id/generative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/generative" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/freddie" />
+
+            <ImageButton
+                android:id="@+id/deepbeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/deepbeat" />
+
+            <ImageButton
+                android:id="@+id/deepart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/deepart" />
+
+            <ImageButton
+                android:id="@+id/deep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/deep" />
+
+            <ImageButton
+                android:id="@+id/cyborg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cyborg" />
+
+            <ImageButton
+                android:id="@+id/books"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/books" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/sample"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/getyourapp" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".imagefrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="760dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/homebutton"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/homebutton"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/veed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/veed" />
+
+            <ImageButton
+                android:id="@+id/Super"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/ssuper" />
+
+            <ImageButton
+                android:id="@+id/mastering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/mastering" />
+
+            <ImageButton
+                android:id="@+id/krisp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/krisp" />
+
+            <ImageButton
+                android:id="@+id/easeus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/easeus" />
+
+            <ImageButton
+                android:id="@+id/auphonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/auphonic" />
+
+            <ImageButton
+                android:id="@+id/audo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/audo" />
+
+            <ImageButton
+                android:id="@+id/audiod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/audiod" />
+
+            <ImageButton
+                android:id="@+id/adobe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/adobe" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/btc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btc" />
+    </FrameLayout>
+</FrameLayout>

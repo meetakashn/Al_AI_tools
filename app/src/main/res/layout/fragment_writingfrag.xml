@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".imagefrag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/homebutton"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/homebutton"
+                android:layout_marginStart="@dimen/_10sdp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/chatgpt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/chatgpt" />
+
+            <ImageButton
+                android:id="@+id/contentbot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/contentbot" />
+
+            <ImageButton
+                android:id="@+id/copyai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/copyai" />
+
+            <ImageButton
+                android:id="@+id/neuroflash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/videobg"
+                android:foreground="@drawable/neuroflash" />
+
+            <ImageButton
+                android:id="@+id/paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/paragraph" />
+
+            <ImageButton
+                android:id="@+id/rytr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rytr" />
+
+            <ImageButton
+                android:id="@+id/scalenut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scalenut" />
+
+            <ImageButton
+                android:id="@+id/simplified"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/simplified" />
+
+            <ImageButton
+                android:id="@+id/smartcopy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/smartcopy" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
